@@ -8,15 +8,14 @@
    <h3 class="text-muted text-nowrap"><img src="images/logo.svg" alt="logo" height="40" style="margin-top: -6px;" /> Peerflix Server</h3>
   </div>
   <div class="jumbotron" ng-file-drop="" ng-file-change="upload($files)">
-   <h1 style="font-size: 56px;margin-bottom: 20px;">极速下载</h1>
    <div class="form-group">
     <div class="input-group">
      <span class="input-group-addon">链接:</span> 
      <input type="text" class="form-control" placeholder="请在这里输入BT种子的URL或磁力链接。" ng-model="link" ng-keypress="keypress($event)" />
     </div>
-	<p style="float: right;margin: 5px 0 -30px 0;"><i class="fa fa-upload"></i> <span class="btn-link" ng-file-select="" ng-file-change="upload($files)">打开本地.torrent文件</span></p>
+	<a class="btn btn-success" href="" ng-click="download()">极速下载</a>
+	<p class="p-upload"><i class="fa fa-upload"></i> <span class="btn-link" ng-file-select="" ng-file-change="upload($files)">打开本地.torrent文件</span></p>
    </div>
-   <a class="btn btn-success" href="" ng-click="download()" style="padding: 8px 24px;margin-top: 10px;"><span class="fa fa-cloud-download"></span> 下载</a>
   </div>
   <div ng-if="!torrents.length" class="alert alert-info" role="alert">
    <i class="fa fa-film"></i> 快去下载BT种子/磁力链接吧！
@@ -36,12 +35,12 @@
       <div ng-class-even="'space'" ng-class-odd="'progress-bar progress-bar-success'" ng-repeat="progress in torrent.progress track by $index" ng-style="{ width: progress + '%' }"></div>
      </div>
      <ul class="list-group">
-      <li class="list-group-item list-group-item-header" ng-if="torrent.files.length &gt; 1"><label class="list-group-item-heading text-nowrap"><input type="checkbox" ng-model="torrent.selected" ng-click="selectAll(torrent)" /> <span class="fa fa-cloud-download"></span> All {{ torrent.files.length }} files ({{ torrent.length / 1024 / 1024 | number:1 }} MB)</label><span>&nbsp;—</span> <span class="list-group-item-text text-nowrap">保存为 <a ng-href="/torrents/{{ torrent.infoHash }}/archive" target="_blank"><span class="fa fa-file-zip-o"></span> 压缩包[zip]</a> 或生成 <a ng-href="/torrents/{{ torrent.infoHash }}/files" target="_blank" title="该文件内记录了视频(音频)的URL，使用本地播放器打开即可直接播放。&#10;如果你觉得浏览器播放视频(音频)不好用，那么就可以生成这个文件并用本地播放软件打开播放(甚至投屏到其他设备)。"><span class="fa fa-play-circle-o"></span> 播放列表[m3u]</a> </span></li>
+      <li class="list-group-item list-group-item-header" ng-if="torrent.files.length &gt; 1"><label class="list-group-item-heading text-nowrap"><input type="checkbox" ng-model="torrent.selected" ng-click="selectAll(torrent)" /> <span class="fa fa-cloud-download"></span> All {{ torrent.files.length }} files ({{ torrent.length / 1024 / 1024 | number:1 }} MB)</label><span>&nbsp;—</span> <span class="list-group-item-text text-nowrap">保存为 <a ng-href="/torrents/{{ torrent.infoHash }}/archive" target="_blank"><span class="fa fa-file-zip-o"></span> 压缩包</a> 或生成 <a ng-href="/torrents/{{ torrent.infoHash }}/files" target="_blank" title="该文件内记录了视频(音频)的URL，使用本地播放器打开即可直接播放。&#10;如果你觉得浏览器播放视频(音频)不好用，那么就可以生成这个文件并用本地播放软件打开播放(甚至投屏到其他设备)。"><span class="fa fa-play-circle-o"></span> 播放列表</a> </span></li>
       <li class="list-group-item text-nowrap" ng-repeat="file in torrent.files"><input type="checkbox" ng-model="file.selected" ng-click="select(torrent, file)" /> <span class="fa fa-cloud-download"></span> <a ng-href="{{ file.link }}" target="_blank">{{ file.name }} ({{ file.length / 1024 / 1024 | number:1 }} MB)</a></li>
      </ul>
     </div>
     <div class="panel-footer">
-     <ul class="list-unstyled list-inline" style="line-height: 1.5;">
+     <ul class="list-unstyled list-inline">
       <li class="text-nowrap"><button type="button" class="btn btn-xs" ng-click="pause(torrent)"><span class="fa {{ torrent.stats.paused ? 'fa-play' : 'fa-pause' }}"></span></button></li>
       <li class="text-nowrap" ng-show="torrent.stats"><strong>速度:</strong> <span class="label label-success">{{ torrent.stats.speed.down / 1024 | number:1 }}</span> / <span class="label label-danger">{{ torrent.stats.speed.up / 1024 | number:1 }}</span> KB/s</li>
       <li class="text-nowrap" ng-show="torrent.stats"><strong>流量:</strong> <span class="label label-success">{{ torrent.stats.traffic.down / 1024 / 1024 | number:1 }}</span> / <span class="label label-danger">{{ torrent.stats.traffic.up / 1024 / 1024 | number:1 }}</span> MB</li>
