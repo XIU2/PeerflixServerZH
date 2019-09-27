@@ -4,11 +4,18 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg?style=flat-square)](https://996.icu)
 
-平时比较喜欢使用 peerflix server，但是看着英文不顺眼，顺手给汉化了。
+平时比较喜欢使用 peerflix server，但是看着英文不顺眼，顺手给汉化了。  
+过了一会，感觉样式不符合我的审美，顺手又给美化了。
 
-## 汉化效果
+## 截图展示
 
-![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-01.png)
+### 本项目
+
+![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-03.png)
+
+### 原项目
+
+![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-02.png)
 
 ## 项目地址
 
