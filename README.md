@@ -26,6 +26,11 @@
 
 通过 peerflix server 官方安装步骤安装完成后，下载本项目覆盖 node_modules\peerflix-server\dist 文件夹下所有文件即可。
 
+## 待办事项
+- [x] 汉化
+- [x] 美化
+- [ ] 支持拖拽本地种子
+
 ## License
 
 The MIT License.  
