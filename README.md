@@ -11,7 +11,7 @@
 
 ### 本项目
 
-![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-03.png)
+![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-04.png)
 
 ### 原项目
 
