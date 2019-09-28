@@ -11,7 +11,7 @@
 
 ### 本项目
 
-![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-04.png)
+![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-05.png)
 
 ### 原项目
 
@@ -29,7 +29,8 @@
 ## 待办事项
 - [x] 汉化
 - [x] 美化
-- [ ] 支持拖拽本地种子
+- [x] 支持拖拽本地种子
+- [ ] 还在想...
 
 ## License
 
