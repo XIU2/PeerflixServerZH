@@ -14,7 +14,7 @@
      <input type="text" class="form-control" placeholder="请在这里输入BT种子的URL或磁力链接。" ng-model="link" ng-keypress="keypress($event)" />
     </div>
 	<a class="btn btn-success" href="" ng-click="download()">极速下载</a>
-	<p class="p-upload"><i class="fa fa-upload"></i> <span class="btn-link" ng-file-select="" ng-file-change="upload($files)">打开本地.torrent文件</span></p>
+	<p class="p-upload"><i class="fa fa-upload"></i> 拖放 [.torrent] 文件至此 或 <span class="btn-link" ng-file-select="" ng-file-change="upload($files)">点击上传</span></p>
    </div>
   </div>
   <div ng-if="!torrents.length" class="alert alert-info" role="alert">
