@@ -11,11 +11,11 @@
 
 ### 本项目
 
-![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-05.png)
+![](https://user-images.githubusercontent.com/54703944/67962515-2c1d5a00-fc38-11e9-8774-e2778c952bcb.png)
 
 ### 原项目
 
-![](https://raw.githubusercontent.com/XIU2/peerflix-server-zh/master/images/example-02.png)
+![](https://user-images.githubusercontent.com/54703944/67962514-2c1d5a00-fc38-11e9-912f-967d90a6ebea.png)
 
 ## 项目地址
 
