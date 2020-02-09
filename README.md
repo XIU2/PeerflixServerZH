@@ -1,7 +1,7 @@
 # Peerflix-Server-zh
 
 [![GitHub license](https://img.shields.io/github/license/XIU2/Peerflix-server-zh.svg?style=flat-square)](https://github.com/XIU2/Peerflix-server-zh/blob/master/LICENSE)
-[![GitHub Star](https://img.shields.io/github/stars/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Star)](https://github.com/XIU2/Peerflix-server-zh/stargazers)
+[![GitHub Star](https://img.shields.io/github/stars/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Star&color=yellow)](https://github.com/XIU2/Peerflix-server-zh/stargazers)
 [![GitHub Fork](https://img.shields.io/github/forks/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Fork)](https://github.com/XIU2/Peerflix-server-zh/network/members)
 
 平时比较喜欢使用 Peerflix Server，但是看着英文不顺眼，顺手给汉化了。  
