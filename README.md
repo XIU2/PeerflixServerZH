@@ -1,8 +1,8 @@
 # Peerflix-Server-zh
 
-[![GitHub license](https://img.shields.io/github/license/XIU2/SHELL.svg?style=flat-square)](https://github.com/XIU2/SHELL/blob/master/LICENSE)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg?style=flat-square)](https://996.icu)
+[![GitHub license](https://img.shields.io/github/license/XIU2/Peerflix-server-zh.svg?style=flat-square)](https://github.com/XIU2/Peerflix-server-zh/blob/master/LICENSE)
+[![GitHub Star](https://img.shields.io/github/stars/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Star)](https://github.com/XIU2/Peerflix-server-zh/stargazers)
+[![GitHub Fork](https://img.shields.io/github/forks/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Fork)](https://github.com/XIU2/Peerflix-server-zh/network/members)
 
 平时比较喜欢使用 Peerflix Server，但是看着英文不顺眼，顺手给汉化了。  
 过了一会，感觉样式不符合我的审美，顺手又给美化了。
@@ -35,4 +35,3 @@
 ## License
 
 The MIT License.  
-The Anti-996 License.
