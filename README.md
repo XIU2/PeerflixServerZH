@@ -4,8 +4,8 @@
 [![GitHub Star](https://img.shields.io/github/stars/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Star&color=f27b37)](https://github.com/XIU2/Peerflix-server-zh/stargazers)
 [![GitHub Fork](https://img.shields.io/github/forks/XIU2/Peerflix-server-zh.svg?style=flat-square&label=Fork&color=f27b37)](https://github.com/XIU2/Peerflix-server-zh/network/members)
 
-平时比较喜欢使用 Peerflix Server，但是看着英文不顺眼，顺手给汉化了。  
-过了一会，感觉样式不符合我的审美，顺手又给美化了。
+有段时间比较喜欢用 Peerflix Server，但是看着英文不顺眼，顺手给汉化了。  
+后来，感觉样式看着也不顺眼，顺手又给美化了。
 
 ## 截图展示
 
