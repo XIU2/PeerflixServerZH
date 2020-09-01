@@ -19,7 +19,7 @@
 
 ## 项目地址
 
- - 本项目：[https://github.com/XIU2/Peerflix-server-zh](https://github.com/XIU2/Peerflix-server-zh)
+ - 本项目：[https://github.com/XIU2/PeerflixServerZH](https://github.com/XIU2/PeerflixServerZH)
  - 原项目：[https://github.com/asapach/Peerflix-server](https://github.com/asapach/peerflix-server)
 
 ## 安装使用
